@@ -1,6 +1,6 @@
 {
     "name": "Customers_CDC",
-    "storage": "dbfs:/home/morganmazouchi@databricks.com/mj_retail/dlt_storage",
+    "storage": "dbfs:/home/ankur.nayyar@databricks.com/mj_retail/dlt_storage",
     "configuration": {
         "pipelines.applyChangesPreviewEnabled": "true"
     },
@@ -16,7 +16,7 @@
     "libraries": [
         {
             "notebook": {
-                "path": "/Repos/mojgan.mazouchi@databricks.com/Delta-Live-Tables/notebooks/2-Retail_DLT_CDC_sql"
+                "path": "/Repos/ankur.nayyar@databricks.com/Delta-Live-Tables/notebooks/2-Retail_DLT_CDC_sql"
             }
         }
     ],
